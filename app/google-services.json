@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "637977363788",
+    "project_id": "jenkinied",
+    "storage_bucket": "jenkinied.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637977363788:android:0c7bfeb4c6cb5666967be9",
+        "android_client_info": {
+          "package_name": "com.c24.jenkinied"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637977363788-1k6pc2doose9jhmelnm51jelv8uqb1vu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2WAI6iN2BpGznzcCoUJAHhNqajHvU-AE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637977363788-1k6pc2doose9jhmelnm51jelv8uqb1vu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
