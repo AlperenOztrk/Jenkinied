@@ -25,13 +25,20 @@ object Repository {
             .create(Api::class.java)
     }
 
+    private var username: String? = null
+    private var password: String? = null
+    private var branch: String? = null
+
     suspend fun login(
         username: String,
         password: String,
         branch: String,
     ) {
-        // todo
-        logNow("Login called")
+        // make api call to check if this combo is valid
+
+
+
+
     }
 
     @Throws
