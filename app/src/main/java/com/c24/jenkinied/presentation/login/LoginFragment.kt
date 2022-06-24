@@ -6,6 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.NavHostFragment.Companion.findNavController
+import androidx.navigation.fragment.findNavController
 import com.c24.jenkinied.databinding.FragmentLoginBinding
 
 class LoginFragment : Fragment() {
@@ -21,15 +23,10 @@ class LoginFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val loginViewModel =
-            ViewModelProvider(this).get(LoginViewModel::class.java)
-
+        val loginViewModel = ViewModelProvider(this).get(LoginViewModel::class.java)
         _binding = FragmentLoginBinding.inflate(inflater, container, false)
         val root: View = binding.root
-
-        loginViewModel.text.observe(viewLifecycleOwner) {
-            //do something
-        }
+        binding.loginBtnLogin.setOnClickListener { findNavController().navigate(LoginFragmentDirections.actionNavigationLoginToNavigationDashboard()) }
         return root
     }
 
