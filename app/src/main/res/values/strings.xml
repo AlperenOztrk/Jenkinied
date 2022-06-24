@@ -10,4 +10,8 @@
     <string name="error_field_required">Dieses Feld darf nicht leer sein</string>
     <string name="error_api">Es gab einen Fehler, bitte kontrolliere deine Login-Daten und versuche es nochmal.</string>
     <string name="stay_logged_in">Daten speichern</string>
+
+    <string name="fragment_dashboard_title">Dashboard</string>
+    <string name="fragment_details_title">Details</string>
+    <string name="fragment_login_title">Login</string>
 </resources>
