@@ -1,4 +1,4 @@
-package com.c24.jenkinied
+package com.c24.jenkinied.network
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -9,6 +9,8 @@ import android.graphics.BitmapFactory
 import android.os.Build
 import android.util.Log
 import androidx.core.app.NotificationCompat
+import com.c24.jenkinied.MainActivity
+import com.c24.jenkinied.R
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
 
