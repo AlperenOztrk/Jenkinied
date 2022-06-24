@@ -2,4 +2,12 @@
     <string name="app_name">Jenkinied</string>
     <string name="default_notification_channel_id">jenkiniedNotificationId</string>
 
+    <string name="url">URL</string>
+    <string name="username">Username</string>
+    <string name="password">Passwort</string>
+    <string name="action_sign_in">Einloggen</string>
+    <string name="action_sign_out">Ausloggen</string>
+    <string name="error_field_required">Dieses Feld darf nicht leer sein</string>
+    <string name="error_api">Es gab einen Fehler, bitte kontrolliere deine Login-Daten und versuche es nochmal.</string>
+    <string name="stay_logged_in">Daten speichern</string>
 </resources>
